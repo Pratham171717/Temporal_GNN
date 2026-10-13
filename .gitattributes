@@ -1,0 +1,21 @@
+# Auto detect text files and normalize line endings to LF on commit
+* text=auto
+
+# Python and script files
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+
+# Windows command scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary artifacts and weights
+*.pth binary
+*.pkl binary
+*.npz binary
+*.npy binary
+*.png binary
