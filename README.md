@@ -4,7 +4,6 @@
 [![PyTorch 2.1.0](https://img.shields.io/badge/PyTorch-2.1.0-EE4C2C.svg)](https://pytorch.org/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg)](https://streamlit.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-Elliptic%20Bitcoin-F7931A.svg)](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An end-to-end Machine Learning and Forensic Intelligence platform detecting illicit Bitcoin transactions using **Temporal Graph Neural Networks (GCN + GRU)** on the **Elliptic Data Set**.
 
@@ -78,8 +77,7 @@ Run the integrity verification script before launching the UI:
 ├── requirements_ui.txt         # Streamlit and plotting dependencies
 ├── verify_artifacts.py         # Integrity verifier and inference benchmark test
 ├── CONTRIBUTING.md             # Contribution guidelines
-├── DESIGN_AND_DEMO.md          # Architectural decisions & demo walk-through
-└── LICENSE                     # MIT License
+└── DESIGN_AND_DEMO.md          # Architectural decisions & demo walk-through
 ```
 
 ---
@@ -102,8 +100,3 @@ Run the integrity verification script before launching the UI:
 - **Dataset**: [Elliptic Data Set (Kaggle)](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set)
 - 203,769 Bitcoin node transactions, 234,355 directed edges, partitioned across 49 chronological time steps.
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
